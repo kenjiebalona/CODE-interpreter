@@ -49,7 +49,7 @@ npm run repl
 
 **Testing**
 ```bash
-GO add code to test.code
+Add code to test.code
 
 npm run dev test.code
 ```
