@@ -1,0 +1,13 @@
+# test
+# INT x = 3
+# INT b
+# SCAN: b
+# b = x
+# x = x + 1
+# DISPLAY: b
+# INT a = 100
+# INT b = 200
+# CHAR char = 'T'
+# FLOAT float = 0.23
+# DISPLAY: x & "omsim" & $ & "bogoon" & $ & char & $ & float
+# DISPLAY:  [&] & a & [&] & b & [&]
