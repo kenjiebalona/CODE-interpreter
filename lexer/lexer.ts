@@ -317,19 +317,7 @@ export default class Lexer {
 
   readNumber() {
     let position = this.position;
-    let digitPos = null;
     while (isDigit(this.ch)) {
-      // accounts for ranges, ie. 2..8
-      // if there is a second `.`, reset to prev number
-      if (this.ch === '.' && digitPos) {
-        this.backupChar(this.position - 1);
-        this.column--;
-        this.readChar();
-        break;
-      }
-      if (this.ch === '.') {
-        digitPos = this.position;
-      }
       this.readChar();
     }
     return this.input.slice(position, this.position);
