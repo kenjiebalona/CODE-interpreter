@@ -1,7 +1,7 @@
 
 # CODE
 
-is a strongly – typed programming language developed to teach Junior High School students basics of programming. It was developed by a group of students enrolled in the Programming Languages course. CODE is a pure
+is a strongly – typed programming language developed to teach Junior High School students the basics of programming. CODE is a pure
 interpreter.
 
 
